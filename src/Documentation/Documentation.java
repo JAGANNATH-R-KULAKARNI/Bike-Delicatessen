@@ -38,7 +38,7 @@ public static void availableAttributes()
 {
 	System.out.println("TYPE THE COMMAND");
 	System.out.println("Available Attributes to sort are");
-	System.out.print("engineCapacity(in CC),power(in PS),mileage(in KMPL),weight(in KG),bikeType(cruiser,standard,sport_bike,scooter),color,torque(in Nm),fuelCapacity(in liter),seatHeight(in mm),minPrice(in rupees),maxPrice(in rupees)\n");
+	System.out.print("engineCapacity(in CC),power(in PS),mileage(in KMPL),weight(in KG),bikeType(cruiser,standard,sport_bike,scooter),color,torque(in Nm),fuelCapacity(in liter),seatHeight(in mm),minPrice(in rupees),maxPrice(in rupees),name\n");
 	System.out.println("************************************************************************************************************************");
 	System.out.println("Example command:");
 	System.out.println("sortTheBikeBy engineCapacity_350 weight_150 torque_27 seatHeight_750 mileage_40 color_black minPrice_74000 maxPrice_200000 -jagannath");

@@ -1,27 +1,27 @@
 package subBikes;
-import Bikes.Hero;
+import Bikes.Honda;
 
-public class Hero_XPulse_200 extends Hero
+public class Honda_Highness_CB_350 extends Honda
 {
-	private String bikeName="Hero_XPulse_200";
-	private double EngineCapacity=199.6;
-	private double Mileage=49.01;
-	private String BikeType="sport_bike";
+	private String bikeName="Honda_Highness_CB_350";
+	private double Mileage=45.8;
+	private double EngineCapacity=348.36;
+	private String BikeType="cruiser";
 	private String Color="black";
-	private double Torque=16.45;
-	private double minPrice=118000;
-	private double maxPrice=118000;
-	private double power=18.04;
-	private double FuelCapacity=13;
-	private double SeatHeight=823;
-	private double Weight=157;
-	private String image="C:\\Users\\user\\eclipse-workspace\\Bike_Delicatessen\\src\\Images\\Hero_XPulse_200.jpg";
-	private String littleInfo="just introduced the BS6 Xpulse 200 to the Auto Today fleet and it's turning out to be quite the swiss-army knife. Whether its touring, riding daily or commuting the Xpulse 200 does it all with relative ease.";
-	private String moreInfo="Xpulse 200 BS6 Featues\r\n"
-			+ "Digital display Yes | Tachometer Yes | Fuel gauge Yes | Electric start Yes | Disc brakes Both | Tyres tube-type\r\n"
+	private double power=21.07;
+	private double Torque=30;
+	private double minPrice=186000;
+	private double maxPrice=192000;
+	private double FuelCapacity=15;
+	private double SeatHeight=800;
+	private double Weight=181;
+	private String image="C:\\Users\\user\\eclipse-workspace\\Bike_Delicatessen\\src\\Images\\Honda_Highness_CB_350.jpg";
+	private String littleInfo="Honda is one of the best known brands when it comes to manufacturing two wheelers in India. You can see those bikes on the Indian roads, no matter which city you go to. From entry level bikes to luxury and sports bikes, the company well understands the demands of the Indian marketplace and works accordingly. ";
+	private String moreInfo="Just like the name of the bike suggests, the Honda Highness CB 350 bike is a luxury level bike made by Honda for its customers that prefer to feel like a royalty. The bike has majestic looks that are sure to gain a lot of attention, every time you hit the roads to take a ride on the bike.\r\n"
 			+ "\r\n"
-			+ "Additionally, this version will have no carb in favour of fuel injection. As a result of these changes, the exhaust note changes slightly, gaining a bit of rasp over the previous version. Additionally, the mid-range seems to have a bit more punch although on paper the power figures remain unchanged with 17.8 bhp from its 200cc motor. Last but in no way the least, Hero has worked on the seat adding a new layer of higher density foam which is a boon on longer rides. Meanwhile, Hero has managed to keep the essence of the Xpulse as a great off-road bike, that works surprisingly well as a city commuter too.";
-	
+			+ "Speaking of the rides, the bike promises to provide some of the most comfortable rides you can ever think of. And well, given its amazing features, the bike can be expected to stand up to its promises.\r\n"
+			+ "\r\n"
+			+ "When the bike carries the name of Honda, you can’t really be questioning its performance anyway. The brand itself takes care of the major amenities like the rider’s safety and comfort into account while designing all its bikes. Meanwhile, the features are also always some of the best in the pricing segment. The Honda Highness CB 350 bike also boasts of similar features and specifications.";
 	
 	public String getBikeName() {
 		return bikeName;

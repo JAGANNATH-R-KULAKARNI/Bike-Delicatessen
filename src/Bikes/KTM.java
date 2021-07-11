@@ -1,8 +1,8 @@
 package Bikes;
 
-public class Hero implements Showroom
+public class KTM implements Showroom
 {
-	protected String[] subBikes= {"HeroSuperSplendor","Hero_XPulse_200","Hero_Pleasure_Plus"};
+	protected String[] subBikes= {"KTM_390_Duke"};
 	private String bikeName="dummy";
 	private double EngineCapacity;
 	private double Mileage;
@@ -18,17 +18,11 @@ public class Hero implements Showroom
 	private String littleInfo="dummy";
 	private String moreInfo="dummy";
 	private String image="dummy";
-	protected String Info="HERO\nFounded In The Year - 19th January 1984\r\n"
-			+ "Founder - Dr. Brijmohan Lall Munjal Ji\r\n"
-			+ "Headquarters - New Delhi, India\r\n"
-			+ "CEO - Pawan Munjal\r\n"
-			+ "Revenue - Rs 34,658 Crores in 2019 ($ 4.9 Billion)\r\n"
-			+ "Cheapest Bike - Hero HF Delux Rs 39,485 Onwards\r\n"
-			+ "Costliest Bikes - Hero Xtreme 200S Rs 1.1 Lakhs INR Onwards\r\n"
-			+ "Best Selling Bike - Hero Splendor\r\n"
-			+ "Flagship Bike - Hero Xtreme 200S\r\n"
-			+ "Types Of Bikes - Commuter Bikes, Naked, Faired,Adventure Bikes\r\n"
-			+ "Upcoming Bikes - Hero Hastur 650";
+	protected String Info="KTM AG (formerly KTM Sportmotorcycle AG[4][5]) is an Austrian motorcycle and sports car manufacturer owned by Pierer Mobility AG and Indian manufacturer Bajaj Auto. It was formed in 1992 but traces its foundation to as early as 1934. Today, KTM AG is the parent company of the KTM Group, consisting of a number of motorcycle brands.\r\n"
+			+ "\r\n"
+			+ "KTM is known for its off-road motorcycles (enduro, motocross and supermoto). Since the late 1990s, it has expanded into street motorcycle production and developing sports cars – namely the X-Bow. In 2015, KTM sold almost as many street as off-road bikes.[6]\r\n"
+			+ "\r\n"
+			+ "Since 2012, KTM has been the largest motorcycle manufacturer in Europe for four consecutive years.[7][8] Globally, the company is among the leading off-road motorcycle manufacturers.[9][10] In 2016, KTM sold 203,423 motor vehicles worldwide.[11]";
 	
 	
 	public String getBikeName() {

@@ -2,7 +2,9 @@ package OutputDesiredBikes;
 import Bikes.Showroom;
 import subBikes.*;
 import SortingAttributes.SortingAttributes;
-import java.awt.*;  
+import java.awt.*;
+import java.util.concurrent.TimeUnit;
+
 import javax.swing.JFrame;  
   
 class MyCanvas extends Canvas{  
@@ -25,7 +27,9 @@ class MyCanvas extends Canvas{
 
 public class OutputDesiredBikes
 {
-String[] allBikes={"HeroSuperSplendor","Hero_XPulse_200"};
+String[] allBikes={"HeroSuperSplendor","Hero_XPulse_200","Hero_Pleasure_Plus","Royal_Enfield_Meteor_350"
+		,"Royal_Enfield_Himalayan","Royal_Enfield_Coninental_GT_350","Yamaha_FZ_X","Yamaha_YZF_R15_V3"
+		,"Yamaha_Fascino_125","Honda_Activa_6G","Honda_Unicorn","Honda_Highness_CB_350","KTM_390_Duke"};
 
 
    private void outputBikeInfo(Showroom bike,int i)
@@ -34,15 +38,15 @@ String[] allBikes={"HeroSuperSplendor","Hero_XPulse_200"};
 	   System.out.println("Bike Name : "+bike.getBikeName());
 	   System.out.println("Bike Type : "+bike.getBikeType());
 	   System.out.println("Bike Color : "+bike.getColor());
-	   System.out.println("Bike Engine Capacity : "+bike.getEngineCapacity());
-	   System.out.println("Bike Fuel Capacity : "+bike.getFuelCapacity());
-	   System.out.println("Bike Mileage : "+bike.getMileage());
-	   System.out.println("Bike Power : "+bike.getPower());
-	   System.out.println("Bike Price : "+bike.getMinPrice());
-	   System.out.println("Bike Price : "+bike.getMaxPrice());
-	   System.out.println("Bike Seat Height : "+bike.getSeatHeight());
-	   System.out.println("Bike Torque : "+bike.getTorque());
-	   System.out.println("Bike Weight : "+bike.getWeight());
+	   System.out.println("Bike Engine Capacity : "+bike.getEngineCapacity()+" CC");
+	   System.out.println("Bike Fuel Capacity : "+bike.getFuelCapacity()+" Liter");
+	   System.out.println("Bike Mileage : "+bike.getMileage()+" KMPL");
+	   System.out.println("Bike Power : "+bike.getPower()+" PS");
+	   System.out.println("Bike Price : "+bike.getMinPrice()+" rupees");
+	   System.out.println("Bike Price : "+bike.getMaxPrice()+" rupees");
+	   System.out.println("Bike Seat Height : "+bike.getSeatHeight()+" mm");
+	   System.out.println("Bike Torque : "+bike.getTorque()+" Nm");
+	   System.out.println("Bike Weight : "+bike.getWeight()+" KG");
 	   System.out.println("Bike Info : "+bike.getLittleInfo());
 	   System.out.println("NOTE : Copy the Name of Bike and use 'sortTheBikeBy name_<BIKE_NAME> -jagannath' to get the image");
 	   System.out.println("---------------------------------------------------------------------------------------------------------------------------");
@@ -50,29 +54,50 @@ String[] allBikes={"HeroSuperSplendor","Hero_XPulse_200"};
    
    private void outputForOnlyName(Showroom bike)
    {
-
-	   MyCanvas m=new MyCanvas(bike);  
-       JFrame f=new JFrame();  
-       f.add(m);  
-       f.setSize(600,600);  
-       f.setVisible(true);  
+	   Thread t1=new Thread(new Runnable() {
+			 public void run()
+			 {	
+				   MyCanvas m=new MyCanvas(bike);  
+			       JFrame f=new JFrame();  
+			       f.add(m);  
+			       f.setSize(600,600);  
+			       f.setVisible(true);  
+			 }
+		 },"Shows Image of the bike");
+		 
+	   Thread t2=new Thread(new Runnable() {
+			 public void run()
+			 {
 	   System.out.println("---------------------------------------------------------------------------------------------------------------------------");
 	   System.out.println("Bike Name : "+bike.getBikeName());
 	   System.out.println("Bike Type : "+bike.getBikeType());
 	   System.out.println("Bike Color : "+bike.getColor());
-	   System.out.println("Bike Engine Capacity : "+bike.getEngineCapacity());
-	   System.out.println("Bike Fuel Capacity : "+bike.getFuelCapacity());
-	   System.out.println("Bike Mileage : "+bike.getMileage());
-	   System.out.println("Bike Power : "+bike.getPower());
-	   System.out.println("Bike Price : "+bike.getMinPrice());
-	   System.out.println("Bike Price : "+bike.getMaxPrice());
-	   System.out.println("Bike Seat Height : "+bike.getSeatHeight());
-	   System.out.println("Bike Torque : "+bike.getTorque());
-	   System.out.println("Bike Weight : "+bike.getWeight());
+	   System.out.println("Bike Engine Capacity : "+bike.getEngineCapacity()+" CC");
+	   System.out.println("Bike Fuel Capacity : "+bike.getFuelCapacity()+" Liter");
+	   System.out.println("Bike Mileage : "+bike.getMileage()+" KMPL");
+	   System.out.println("Bike Power : "+bike.getPower()+" PS");
+	   System.out.println("Bike Price : "+bike.getMinPrice()+" rupees");
+	   System.out.println("Bike Price : "+bike.getMaxPrice()+" rupees");
+	   System.out.println("Bike Seat Height : "+bike.getSeatHeight()+" mm");
+	   System.out.println("Bike Torque : "+bike.getTorque()+" Nm");
+	   System.out.println("Bike Weight : "+bike.getWeight()+" KG");
 	   System.out.println("Bike Info : "+bike.getLittleInfo()+"\n"+bike.getMoreInfo());
 	   System.out.println("Company Details : "+bike.getInfo());
 	   System.out.println("---------------------------------------------------------------------------------------------------------------------------");
-   
+			 }
+		 },"Pinting details of the bike");
+	   	
+			 t1.start();
+			 t2.start();
+			
+			 try {
+			  t1.join();
+			  t2.join();
+			 }
+			 catch(Exception e)
+			 {
+				 System.out.println(e);
+			 }
    }
    
    public static int stringCompare(String str1, String str2)
@@ -109,31 +134,31 @@ String[] allBikes={"HeroSuperSplendor","Hero_XPulse_200"};
 	   if(!conditions.getBikeType().equals("") && stringCompare(bike.getBikeType(),conditions.getBikeType()) != 0)
 		   return false;
 	   
-	   if(conditions.getEngineCapacity() != 0 && bike.getEngineCapacity() > conditions.getEngineCapacity())
+	   if(conditions.getEngineCapacity() != 0 && bike.getEngineCapacity() < conditions.getEngineCapacity())
 		   return false;
 
-	   if(conditions.getMileage() != 0 && bike.getMileage() > conditions.getMileage())
+	   if(conditions.getMileage() != 0 && bike.getMileage() < conditions.getMileage())
 		   return false;
 
-	   if(conditions.getWeight() != 0 && bike.getWeight() > conditions.getWeight())
+	   if(conditions.getWeight() != 0 && bike.getWeight() < conditions.getWeight())
 		   return false;
 	   
-	   if(conditions.getTorque() != 0 && bike.getTorque() > conditions.getTorque())
+	   if(conditions.getTorque() != 0 && bike.getTorque() < conditions.getTorque())
 		   return false;
 	   
-	   if(conditions.getFuelCapacity() != 0 && bike.getFuelCapacity() > conditions.getFuelCapacity())
+	   if(conditions.getFuelCapacity() != 0 && bike.getFuelCapacity() < conditions.getFuelCapacity())
 		   return false;
 	   
-	   if(conditions.getSeatHeight() != 0 && bike.getSeatHeight() > conditions.getSeatHeight())
+	   if(conditions.getSeatHeight() != 0 && bike.getSeatHeight() < conditions.getSeatHeight())
 		   return false;
 	   
-	   if(conditions.getMinPrice() != 0 && bike.getMinPrice() > conditions.getMinPrice())
+	   if(conditions.getMinPrice() != 0 && bike.getMinPrice() < conditions.getMinPrice())
 		   return false;
 	   
 	   if(conditions.getMaxPrice() != 0 && bike.getMaxPrice() > conditions.getMaxPrice())
 		   return false;
 	   
-	   if(conditions.getPower() != 0 && bike.getPower() > conditions.getPower())
+	   if(conditions.getPower() != 0 && bike.getPower() < conditions.getPower())
 	   return false;
 	   
 	   return true;

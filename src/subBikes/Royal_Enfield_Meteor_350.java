@@ -1,28 +1,23 @@
 package subBikes;
-import Bikes.Hero;
+import Bikes.RoyalEnfield;
 
-public class Hero_XPulse_200 extends Hero
+public class Royal_Enfield_Meteor_350 extends RoyalEnfield
 {
-	private String bikeName="Hero_XPulse_200";
-	private double EngineCapacity=199.6;
-	private double Mileage=49.01;
-	private String BikeType="sport_bike";
-	private String Color="black";
-	private double Torque=16.45;
-	private double minPrice=118000;
-	private double maxPrice=118000;
-	private double power=18.04;
-	private double FuelCapacity=13;
-	private double SeatHeight=823;
-	private double Weight=157;
-	private String image="C:\\Users\\user\\eclipse-workspace\\Bike_Delicatessen\\src\\Images\\Hero_XPulse_200.jpg";
-	private String littleInfo="just introduced the BS6 Xpulse 200 to the Auto Today fleet and it's turning out to be quite the swiss-army knife. Whether its touring, riding daily or commuting the Xpulse 200 does it all with relative ease.";
-	private String moreInfo="Xpulse 200 BS6 Featues\r\n"
-			+ "Digital display Yes | Tachometer Yes | Fuel gauge Yes | Electric start Yes | Disc brakes Both | Tyres tube-type\r\n"
-			+ "\r\n"
-			+ "Additionally, this version will have no carb in favour of fuel injection. As a result of these changes, the exhaust note changes slightly, gaining a bit of rasp over the previous version. Additionally, the mid-range seems to have a bit more punch although on paper the power figures remain unchanged with 17.8 bhp from its 200cc motor. Last but in no way the least, Hero has worked on the seat adding a new layer of higher density foam which is a boon on longer rides. Meanwhile, Hero has managed to keep the essence of the Xpulse as a great off-road bike, that works surprisingly well as a city commuter too.";
-	
-	
+	private String bikeName="Royal_Enfield_Meteor_350";
+	private double Mileage=41.88;
+	private double EngineCapacity=349;
+	private String BikeType="cruiser";
+	private String Color="yellow";
+	private double power=20.4;
+	private double Torque=27;
+	private double minPrice=180000;
+	private double maxPrice=199000;
+	private double FuelCapacity=15;
+	private double SeatHeight=765;
+	private double Weight=190;
+	private String image="C:\\Users\\user\\eclipse-workspace\\Bike_Delicatessen\\src\\Images\\Royal_Enfield_Meteor_350.jpg";
+	private String littleInfo="Royal Enfield upped the prices of the Meteor 350 back in April 2021. The hike ranges from Rs 5,000 to Rs 6,000, and the asking price of the base model has gone up from Rs 1,78,744 to Rs 1,84,319 (ex-showroom Delhi). No mechanical or cosmetic change has been made to the motorcycle. If you’re planning on buying the Royal Enfield Meteor 350";
+	private String moreInfo="The Royal Enfield Meteor 350 is powered by an all-new 349cc air-cooled SOHC 2-valve motor with fuel-injection. The powerplant generates 20.4PS at 6100rpm and 27Nm at 4000rpm, working in conjunction with a 5-speed transmission. The engine is counterbalanced for optimum refinement, which is a first for a 350cc Royal Enfield. The engine nestles inside a double downtube split cradle frame which is suspended on a 41mm telescopic front fork and twin 6-stage preload-adjustable emulsion shock absorbers at the rear. Braking hardware consists of a 300mm front disc and a 270mm rear unit with dual-channel ABS as standard. The 350cc Royal Enfield bike sports a 19-inch front and 17-inch rear alloy wheel wrapped with tubeless 100-section front and 140-section rear tubeless tyres. At 191kg kerb, the Meteor 350 is 6kg lighter than its predecessor, the Thunderbird 350X.";
 	public String getBikeName() {
 		return bikeName;
 	}

@@ -1,8 +1,8 @@
 package Bikes;
 
-public class Hero implements Showroom
+public class Honda implements Showroom
 {
-	protected String[] subBikes= {"HeroSuperSplendor","Hero_XPulse_200","Hero_Pleasure_Plus"};
+	protected String[] subBikes= {"Honda_Activa_6G","Honda_Unicorn","Honda_Highness_CB_350"};
 	private String bikeName="dummy";
 	private double EngineCapacity;
 	private double Mileage;
@@ -18,17 +18,13 @@ public class Hero implements Showroom
 	private String littleInfo="dummy";
 	private String moreInfo="dummy";
 	private String image="dummy";
-	protected String Info="HERO\nFounded In The Year - 19th January 1984\r\n"
-			+ "Founder - Dr. Brijmohan Lall Munjal Ji\r\n"
-			+ "Headquarters - New Delhi, India\r\n"
-			+ "CEO - Pawan Munjal\r\n"
-			+ "Revenue - Rs 34,658 Crores in 2019 ($ 4.9 Billion)\r\n"
-			+ "Cheapest Bike - Hero HF Delux Rs 39,485 Onwards\r\n"
-			+ "Costliest Bikes - Hero Xtreme 200S Rs 1.1 Lakhs INR Onwards\r\n"
-			+ "Best Selling Bike - Hero Splendor\r\n"
-			+ "Flagship Bike - Hero Xtreme 200S\r\n"
-			+ "Types Of Bikes - Commuter Bikes, Naked, Faired,Adventure Bikes\r\n"
-			+ "Upcoming Bikes - Hero Hastur 650";
+	protected String Info="The Honda Motor Company, Ltd. (Japanese: 本田技研工業株式会社, Hepburn: Honda Giken Kōgyō KK, IPA: [honda] (About this soundlisten); /ˈhɒndə/) is a Japanese public multinational conglomerate manufacturer of automobiles, motorcycles, and power equipment, headquartered in Minato, Tokyo, Japan.\r\n"
+			+ "\r\n"
+			+ "Honda has been the world's largest motorcycle manufacturer since 1959,[2][3] reaching a production of 400 million by the end of 2019,[4] as well as the world's largest manufacturer of internal combustion engines measured by volume, producing more than 14 million internal combustion engines each year.[5] Honda became the second-largest Japanese automobile manufacturer in 2001.[6][7] Honda was the eighth largest automobile manufacturer in the world in 2015.[8]\r\n"
+			+ "\r\n"
+			+ "Honda was the first Japanese automobile manufacturer to release a dedicated luxury brand, Acura, in 1986. Aside from their core automobile and motorcycle businesses, Honda also manufactures garden equipment, marine engines, personal watercraft and power generators, and other products. Since 1986, Honda has been involved with artificial intelligence/robotics research and released their ASIMO robot in 2000. They have also ventured into aerospace with the establishment of GE Honda Aero Engines in 2004 and the Honda HA-420 HondaJet, which began production in 2012. Honda has two joint-ventures in China: Dongfeng Honda and Guangqi Honda.\r\n"
+			+ "\r\n"
+			+ "In 2013, Honda invested about 5.7% (US$6.8 billion) of its revenues in research and development.[9] Also in 2013, Honda became the first Japanese automaker to be a net exporter from the United States, exporting 108,705 Honda and Acura models, while importing only 88,357.[10]";
 	
 	
 	public String getBikeName() {
