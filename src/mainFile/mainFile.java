@@ -10,7 +10,7 @@ public class mainFile
   public static void main (String[] args) throws InterruptedException
   {
 	  Scanner sc= new Scanner(System.in);
-	//    Documentation.welcomeMessage();
+	    Documentation.welcomeMessage();
 	    Documentation.commandExplaination();
 	    
 	    while(true)
