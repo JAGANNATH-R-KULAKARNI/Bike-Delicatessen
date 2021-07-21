@@ -9,3 +9,20 @@ THEN YOU ARE AT THE RIGHT PLACE :). THIS JAVA APPLICATION IS FOR YOU 😃
 NOTE : You can sort your desired bike by writing a command :). Syntax is explained in the documentation section.😉😁😀😉😊😋😎
 
 ## Some Screenshots
+
+![1](https://user-images.githubusercontent.com/64036703/126551657-6c794cad-f49f-4963-9b42-abbc1cc45a3f.png)
+![2](https://user-images.githubusercontent.com/64036703/126551662-ce4c5189-8c3e-4d2c-80dd-b4a5d40e9f9f.png)
+![3](https://user-images.githubusercontent.com/64036703/126551665-808f8cc1-40be-4efc-9536-cf17bb5f6e2c.png)
+![4](https://user-images.githubusercontent.com/64036703/126551666-f759eec7-16da-4968-b1b3-0dd4ebf0c150.png)
+![5](https://user-images.githubusercontent.com/64036703/126551667-d8f999e2-ae40-492c-9e15-ce64d3f3ae4c.png)
+![6](https://user-images.githubusercontent.com/64036703/126551668-8b4a8158-ce74-477e-98ba-41edae909bfc.png)
+![7](https://user-images.githubusercontent.com/64036703/126551672-2ee6a9af-d0f4-4f3e-b4bb-b5ef7a1e8019.png)
+![8](https://user-images.githubusercontent.com/64036703/126551674-0bbc6b27-7867-4084-bb9f-db80b5b1ebb2.png)
+![9](https://user-images.githubusercontent.com/64036703/126551677-cf66d908-a6cc-41aa-ae1c-914ba2e4e976.png)
+![10](https://user-images.githubusercontent.com/64036703/126551678-d1cda707-7066-4cec-8843-375a9403dd8b.png)
+![11](https://user-images.githubusercontent.com/64036703/126551681-3a0e92c5-5ca5-4591-8367-d76f3c62a2d1.png)
+![12](https://user-images.githubusercontent.com/64036703/126551683-86c7893b-745a-44fd-9af0-68bb6e65ed9b.png)
+![13](https://user-images.githubusercontent.com/64036703/126551684-18364997-76a5-46fa-8bec-8aa593eb1098.png)
+![14](https://user-images.githubusercontent.com/64036703/126551687-fdf87f59-3828-4d11-81f0-5dbaf887ef1d.png)
+![15](https://user-images.githubusercontent.com/64036703/126551689-f7ef7941-24c6-45e6-a7a9-7e8c056cce92.png)
+![16](https://user-images.githubusercontent.com/64036703/126551691-1f9010cd-7363-4986-93c4-1fa5ba89549c.png)
