@@ -1,5 +1,6 @@
 # Bike Delicatessen
 
+![jag2](https://user-images.githubusercontent.com/64036703/126870487-4c5220ff-4d23-49ca-b7a8-3a4c508f126d.jpg)
 
 * Do you want to buy a new bike ? 
 
