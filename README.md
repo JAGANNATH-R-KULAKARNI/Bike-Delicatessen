@@ -73,4 +73,3 @@ NOTE : You can sort your desired bike by writing a command :). Syntax is explain
 ![5](https://user-images.githubusercontent.com/64036703/126870970-8c449447-36b0-4d2f-a489-ce7060f65ea9.jpg)
 
 
-![IDidItGIF](https://user-images.githubusercontent.com/64036703/126871244-496600ad-ae4a-4136-816f-09722c1d9f7e.gif)
