@@ -34,7 +34,7 @@ NOTE : You can sort your desired bike by writing a command :). Syntax is explain
 ![2](https://user-images.githubusercontent.com/64036703/126551662-ce4c5189-8c3e-4d2c-80dd-b4a5d40e9f9f.png)
 ![3](https://user-images.githubusercontent.com/64036703/126551665-808f8cc1-40be-4efc-9536-cf17bb5f6e2c.png)
 
-![2](https://user-images.githubusercontent.com/64036703/126871015-cde154aa-cf31-400b-90da-419c6d1e9b6b.jpg)
+![6](https://user-images.githubusercontent.com/64036703/126871098-fe13fb57-0b6d-457b-8b35-6853a4f31be6.jpg)
 
 ### This command prints all cruiser bikes
 ![4](https://user-images.githubusercontent.com/64036703/126551666-f759eec7-16da-4968-b1b3-0dd4ebf0c150.png)
