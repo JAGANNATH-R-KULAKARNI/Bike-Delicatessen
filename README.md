@@ -1,4 +1,18 @@
 # Bike Delicatessen
+Three or more...
+
+---
+
+Hyphens
+
+***
+
+Asterisks
+
+___
+
+Underscores
+
 Do you want to buy a new bike ? 
 But don't know how ?
 Don't know what bike is suitable for you according to your height ? weight ?
