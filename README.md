@@ -40,7 +40,7 @@ NOTE : You can sort your desired bike by writing a command :). Syntax is explain
 ![5](https://user-images.githubusercontent.com/64036703/126551667-d8f999e2-ae40-492c-9e15-ce64d3f3ae4c.png)
 ![6](https://user-images.githubusercontent.com/64036703/126551668-8b4a8158-ce74-477e-98ba-41edae909bfc.png)
 
-### This command prints all bike in the price range of 2 to 3 lakhs(on room price)
+### This command prints all bike in the price range of 2 to 3 lakhs(on road price)
 ![7](https://user-images.githubusercontent.com/64036703/126551672-2ee6a9af-d0f4-4f3e-b4bb-b5ef7a1e8019.png)
 
 ### This command sorts according to the attributes given
