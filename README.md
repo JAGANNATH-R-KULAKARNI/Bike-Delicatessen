@@ -25,6 +25,7 @@ NOTE : You can sort your desired bike by writing a command :). Syntax is explain
 
 ## Some Screenshots
 
+### This screeshot provides the overview of how the app works
 ![1](https://user-images.githubusercontent.com/64036703/126551657-6c794cad-f49f-4963-9b42-abbc1cc45a3f.png)
 ![2](https://user-images.githubusercontent.com/64036703/126551662-ce4c5189-8c3e-4d2c-80dd-b4a5d40e9f9f.png)
 ![3](https://user-images.githubusercontent.com/64036703/126551665-808f8cc1-40be-4efc-9536-cf17bb5f6e2c.png)
