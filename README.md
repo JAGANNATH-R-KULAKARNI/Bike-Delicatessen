@@ -62,7 +62,7 @@ NOTE : You can sort your desired bike by writing a command :). Syntax is explain
 
 ![4](https://user-images.githubusercontent.com/64036703/126870982-03f94104-dd46-4e4d-b801-20ac609198d1.jpg)
 
-### To know more details about a particular bike type its name according to the right syntax
+### To know more details about a particular bike ,type its name according to the right syntax
 ![13](https://user-images.githubusercontent.com/64036703/126551684-18364997-76a5-46fa-8bec-8aa593eb1098.png)
 ![14](https://user-images.githubusercontent.com/64036703/126551687-fdf87f59-3828-4d11-81f0-5dbaf887ef1d.png)
 ![15](https://user-images.githubusercontent.com/64036703/126551689-f7ef7941-24c6-45e6-a7a9-7e8c056cce92.png)
