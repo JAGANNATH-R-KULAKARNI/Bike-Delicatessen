@@ -18,7 +18,8 @@
 * Do you want to find bikes according to your favorite color ? engine Power? Torque ? 
 
 
-* THEN YOU ARE AT THE RIGHT PLACE :). THIS JAVA APPLICATION IS FOR YOU
+* THEN YOU ARE AT THE RIGHT PLACE ![MuaKissGIF](https://user-images.githubusercontent.com/64036703/126871202-9ccec2a2-35fc-4ba6-8d49-1a57b49eb5a8.gif)
+. THIS JAVA APPLICATION IS FOR YOU
 
 
 NOTE : You can sort your desired bike by writing a command :). Syntax is explained in the documentation section.
